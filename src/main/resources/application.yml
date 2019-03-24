@@ -1,0 +1,11 @@
+eureka:
+#  instance:
+#    preferIpAddress: true
+#  client:
+#    registerWithEureka: false
+  fetchRegistry: false
+  server:
+    waitTimeInMisWhenSyncEmpty: 5
+spring:
+  application:
+    name: eureka-server
